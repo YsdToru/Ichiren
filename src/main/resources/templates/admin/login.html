@@ -1,0 +1,20 @@
+<!-- login.html -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form th:action="@{/taskdon/login}" method="post">
+        <label for="user_id">UseID:</label>
+        <input type="text" id="user_id" name="user_id" th:value="${user_id}"/>
+        <br/>
+        <label for="user_pass">Password:</label>
+        <input type="password" id="user_pass" name="user_pass" th:value="${user_pass}"/>
+        <br/>
+        <input type="submit" value="Login"/>
+    </form>
+</body>
+</html>

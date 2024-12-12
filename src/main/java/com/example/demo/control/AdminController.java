@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class AdminController {
 
+	
+	/**
+	 * Pushのテスト
+	 * @param model
+	 * @return
+	 */
 	@GetMapping("/login")
 	public String login(Model model) {
 		return "login";

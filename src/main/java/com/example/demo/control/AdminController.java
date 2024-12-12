@@ -11,7 +11,7 @@ public class AdminController {
 
 	
 	/**
-	 * Pushのテスト
+	 * Pushのテスト1
 	 * @param model
 	 * @return
 	 */
